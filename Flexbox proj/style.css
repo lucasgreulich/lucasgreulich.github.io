@@ -1,0 +1,202 @@
+/*header*/
+header{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: seashell;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    max-height: 69px;
+    border: 1px solid seashell;
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+li{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: underline;
+}
+.tea-cozy-img{
+    display: flex;
+    height: 50px;
+    padding: 10px;
+}
+/* body*/
+body{
+    background-color: black;
+    color: seashell;
+    margin: 20px;
+    }
+.flex-container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    width: 1200px;
+    
+    }
+    .photo{
+        background-image: url(img-mission-background.jpg);
+        width: 1200px;
+        height: 700px;
+        position: relative;
+        }
+.our-mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: black;
+    padding-left: 325px;
+    padding-right: 325px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    }
+    .flex-container-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 50px;
+        }
+    .tea-month{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Helvetica, Arial, sans-serif;
+        color: seashell;
+        font-size: 22px;
+    }
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 200px;
+        padding-bottom: 10px;
+    }
+    .b-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: seashell;
+        font-size: 22px;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    .flex-container-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Helvetica, Arial, Helvetica, sans-serif;
+        color: seashell;
+        margin: 50px;
+    }
+    .photo-2{
+        background-image: url(img-locations-background.jpg);
+        height: 500px;
+        width: 1200px;
+        position: relative;
+        padding-top: 50px;
+        }
+
+    .locations-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+            }   
+    .location{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        margin-bottom: 350px;
+        font-family: Helvetica, sans-serif;
+        color: seashell;  
+          
+            }
+        .downtown{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        background-color: black;
+        font-size: 22px;
+        text-decoration: none;
+        font-family: Helvetica, Arial;
+        color: seashell;
+
+        } 
+    .east{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        background-color: black;
+        font-size: 22px;
+        text-decoration: none;
+        font-family: Helvetica, Arial;
+        color: seashell;
+         }
+         .oakdale{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 300px;
+            height: 300px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 15px;
+            background-color: black;
+            font-size: 22px;
+            text-decoration: none;
+            font-family: Helvetica, Arial;
+            color: seashell;
+         }
+         p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+        /*Footer*/
+   
+    .flex-container-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Helvetica, sans-serif;
+        color: seashell;
+        font-size: 22px;
+    }
+    .copyright{
+        text-align: left;
+        font-family: Helvetica, sans-serif;
+        color: seashell;
+    }
+    
